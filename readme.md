@@ -28,8 +28,10 @@ $ http://localhost:8000/
 ### Run
 >Get the list of users.
 `GET` `http://datapeace.pythonanywhere.com/api/users/`
+
 >Retrieve User data by id.
 `GET` `http://datapeace.pythonanywhere.com/api/users/<id>,`
+
 >Create New User Entry
 `POST` `http://datapeace.pythonanywhere.com/api/users/`
 ```JSON
@@ -46,6 +48,7 @@ $ http://localhost:8000/
 }
 ```
 
+
 >Update existing User Entry
 `PUT` `http://datapeace.pythonanywhere.com/api/users/1/`
 ```JSON
@@ -61,6 +64,7 @@ $ http://localhost:8000/
     "age": 25
 }
 ```
+
 >Delete existing User Entry
 `DELETE` `http://datapeace.pythonanywhere.com/api/users/1/`
 
